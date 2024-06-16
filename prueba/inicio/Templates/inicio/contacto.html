@@ -1,0 +1,36 @@
+
+{% extends "inicio/Encabezado.html" %}
+<title> {% block titulo %}contacto  {% endblock%}</title>
+{% block contenido%}
+    
+
+
+
+
+		<!-- Contenido Principal-->
+        <div class="page-content">
+
+
+			<!--Encabezdo -->
+			<div class="page-header">
+				<div class="page-title">
+					<h3>Contacto
+				    <small>Ingresa tu información</small></h3>
+				</div>
+
+				
+				
+			</div>
+			<!-- /Encabezado-->
+            <p> Nombre:<input type="text" name="nombre"></p>
+            <p>Mensaje: </p><p><textarea cols="50" row="10"> </textarea></p>
+            <p><input type="Button" name="enviar" value="Enviar"/></p>
+
+			
+		<!-- /Contenido Principal-->
+
+
+{% endblock%}
+
+
+
